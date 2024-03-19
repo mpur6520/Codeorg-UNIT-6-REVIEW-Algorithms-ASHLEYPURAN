@@ -1,0 +1,97 @@
+html, body{
+  text-align: center;
+  font-family: cursive;
+  background: linear-gradient(#fff,#ffd1d1);
+  background-attachment: fixed;
+  font-size: 14px;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.heart{
+  width: 20px;
+}
+
+.heading{
+  color: #ff8585;
+  background: center fixed #fff0f0;
+  padding: 20px 20px;
+  width: 600px;
+  margin: auto;
+  box-shadow: 1px 1px 1px 1px #ffa3a3;
+}
+
+h2{
+  color: #ff3d3d;
+}
+
+
+.header{
+  overflow: hidden;
+  background: center fixed #ffa3a3;
+  padding: 10px 10px;
+  box-shadow: 1px 1px 1px 1px #fff;
+}
+
+.header a{
+  color: #fff;
+  padding: 50px;
+  text-align: center;
+}
+
+.container{
+  color: #ffffff;
+  background: center fixed #ffdbdb;
+  padding: 20px 40px;
+  margin: auto;
+  width: 800px;
+  overflow: hidden;
+  box-shadow: 1px 1px 1px 1px #fff;
+}
+
+.wave{
+  background: center fixed #ffb3b3;
+  overflow: hidden;
+  display: block;
+  margin: 10px;
+  height: 20px;
+  position: relative;
+  transition: height 2s;
+  box-shadow: 1px 1px 1px 1px #fff;
+}
+
+#L1:hover{
+  height: 160px;
+  top: 1px;
+  z-index: 1;
+}
+
+#L2:hover{
+  height: 200px;
+  top: 1px;
+  z-index: 1;
+}
+
+#L3:hover{
+  height: 500px;
+  top: 1px;
+  z-index: 1;
+}
+
+#L4:hover{
+  height: 350px;
+  top: 1px;
+  z-index: 1;
+}
+
+#L5:hover{
+  height: 600px;
+  top: 1px;
+  z-index: 1;
+}
+
+table{
+  margin: auto;
+}
